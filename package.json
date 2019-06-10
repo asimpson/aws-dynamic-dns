@@ -3,9 +3,6 @@
   "version": "0.2.0",
   "description": "Update Route53 with my home IP",
   "main": "index.js",
-  "scripts": {
-    "build": "docker build -t dyndns ."
-  },
   "author": "Adam Simpson",
   "license": "ISC",
   "dependencies": {

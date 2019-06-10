@@ -6,6 +6,6 @@ Fill in the following env variables in file: `.env`.
 - DOMAIN
 
 ## Docker
-Build the docker image: `npm run build`
+Build the docker image: `make build`.
 
-Run the script: `docker run --rm dyndns`
+Run the script: `make run` or `docker run --rm dyndns`.
