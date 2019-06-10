@@ -1,8 +1,10 @@
 'use strict';
 
 const aws = require('aws-sdk');
+const env = require('node-env-file');
 const shell = require('child_process').spawnSync;
 
+env(__dirname + '/.env');
 const route = new aws.Route53();
 
 const getId = () => {
